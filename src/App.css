@@ -1,0 +1,389 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* overflow-y: hidden; */
+}
+
+.a1 {
+  background-color: rgb(21, 199, 184);
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 900;
+  border-radius: 3rem 3rem 3rem 0rem;
+  transition: .5s;
+
+  &:hover {
+    border-radius: 0rem 3rem 3rem 3rem;
+  }
+}
+
+.portfolioa1 {
+  background-color: rgb(21, 199, 184);
+  height: 70px;
+  /* width: 100%; */
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 100px; */
+  margin: 0 auto;
+  font-weight: 900;
+  border-radius: 3rem 3rem 3rem 0rem;
+  transition: .5s;
+
+  &:hover {
+    border-radius: 0rem 3rem 3rem 3rem;
+
+  }
+}
+
+.a2 {
+  background-color: rgba(233, 32, 233, 0.596);
+  height: 70px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 3rem 3rem 3rem 0rem;
+  transition: .5s;
+
+  &:hover {
+    border-radius: 0rem 3rem 3rem 3rem;
+
+  }
+}
+
+.p {
+  font-weight: 300;
+}
+
+.homeh1 {
+  font-size: 60px;
+  margin: 0 auto;
+  text-align: justify;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+div img {
+  width: 100%;
+  height: 380px;
+}
+
+
+
+.col1 {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 100px;
+}
+
+.col8 {
+  margin-top: 100px;
+}
+
+.col8row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middlerow2 {
+  box-shadow: 0px 5px 10px gray;
+  margin-top: 100px;
+}
+
+.card3 {
+  flex-direction: column;
+}
+
+.middlerow2col img {
+  height: 200px;
+}
+
+.middlerow2 img {
+  width: 200px;
+}
+
+.middlerow3 {
+  margin-top: 100px;
+}
+
+.middlerow5 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.middlerow4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cardcontainer {
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  /* justify-content: space-between; */
+  box-shadow: 0px 0px 10px rgb(240, 231, 231);
+  margin: 10px;
+
+  &:hover {
+    background-color: rgb(35, 184, 184);
+    color: white;
+  }
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  text-align: justify;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.middle2row1 {
+  margin-top: 100px;
+  height: 500px;
+}
+
+.middle3row1 {
+  height: 300px;
+}
+
+.card3container {
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  /* justify-content: space-between; */
+  box-shadow: 0px 0px 10px rgb(240, 231, 231);
+  margin: 10px;
+}
+
+.card4text {
+  text-align: justify;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.card4text p {
+  /* text-align: justify; */
+  row-gap: 5px;
+}
+
+.card4container2 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: -250px;
+  background-color: white;
+
+  border: 1px;
+  /* justify-content: space-between; */
+  box-shadow: 0px 0px 20px rgb(240, 231, 231);
+  margin: 10px;
+  transition: .5s;
+
+  &:hover {
+    background-color: rgb(85, 176, 230);
+    color: white;
+  }
+}
+
+.card5container2 {
+  width: 100%;
+  height: 550px;
+  background-color: white;
+  border: 1px;
+  /* justify-content: space-between; */
+  box-shadow: 0px 0px 20px rgb(240, 231, 231);
+  margin: 10px;
+
+
+
+}
+
+
+.card6text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.middlecontainer {
+  margin: 0 auto;
+}
+
+.imgCont {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.imgContcard3 {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.imgContcard3 img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.imgCont img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.cardcontainer2 {
+  width: 100%;
+  height: 100%;
+
+  box-shadow: 0px 0px 40px rgb(240, 231, 231);
+}
+
+.card6container2 {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  box-shadow: 0px 0px 40px rgb(240, 231, 231);
+}
+
+.middle4row1 {
+  margin-top: 100px;
+  height: 250px;
+}
+
+.footer {
+  height: 100px;
+}
+
+.middle4row1col6 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.middle5row1 {
+  height: 700px;
+  background-color: whitesmoke;
+}
+
+.middle4row1col6 i {
+  position: relative;
+  left: 160px;
+  top: -40px;
+  color: white;
+}
+
+.middle4row1col6 input {
+  margin: 0 auto;
+  margin-top: 100px;
+  outline: none;
+  font-size: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.imgCont2 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.card4imgCont2 {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+.card5icontext {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card4imgCont2 img {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: blue;
+
+
+
+}
+
+.imgCont2 img {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.title {
+  color: lightblue;
+  text-align: center;
+}
+
+.desc {
+  color: lightblue;
+
+  text-align: justify;
+  text-align: center;
+
+}
+
+.middlerow6 {
+  margin: 100px;
+}
+
+.portfoliorow1 {
+  margin-top: 100px;
+  background-color: whitesmoke;
+}
+
+.pricingrow1 {
+  margin-top: 50px;
+  background-color: white;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
