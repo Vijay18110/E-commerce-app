@@ -3,6 +3,7 @@ import Card4 from '../components/Card4'
 import pic1 from '../assets/strategy.png'
 import pic2 from '../assets/seo.png'
 import pic3 from '../assets/user2.png'
+import Card from '../components/Card'
 
 
 const Middle3 = () => {

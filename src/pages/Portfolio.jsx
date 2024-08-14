@@ -4,6 +4,8 @@ import prof1 from '../assets/professionalpic1.jpg'
 import prof2 from '../assets/professionalpic2.jpg'
 import prof3 from '../assets/professionalpic3.jpg'
 import prof4 from '../assets/professionalpic4.jpg'
+import Cardx from '../Cardx'
+import Button from '../components/Button'
 
 const Portfolio = () => {
     return (
@@ -17,17 +19,16 @@ const Portfolio = () => {
             </div>
 
             <div className='container-fluid d-flex pt-5 gap-3'>
-                <Card2 pic={prof1} name="Branding, Printing" work="High Quality Design Concept"></Card2>
-                <Card2 pic={prof2} name="Graphic Design" work="High Quality Design Concept
-"></Card2>
-                <Card2 pic={prof3} name="Web Development" work="High Quality Design Concept"></Card2>
-                <Card2 pic={prof4} name="Web Development" work="High Quality Design Concept"></Card2>
+                <Cardx logo={prof1} title="Branding, Printing" p="High Quality Design Concept"></Cardx>
+                <Cardx logo={prof2} title="Graphic Design" p="High Quality Design Concept
+"></Cardx>
+                <Cardx logo={prof3} title="Web Development" p="High Quality Design Concept"></Cardx>
+                <Cardx logo={prof4} title="Web Development" p="High Quality Design Concept"></Cardx>
             </div>
-            <p class="d-flex gap-2 p-2 pt-5">
-                <div className='portfolioa1'>
-                    <a href="#" className=" btn text-center text-white  align-items-center"><span>VIEW MORE PORTFOLIO</span> <br /><span> </span></a>
-                </div>
-            </p>
+            <div className="conatiner justify-content-center mt-3 mx-auto d-flex">
+                <Button span="VIEW MORE PORTFOLIO" ></Button>
+            </div>
+
             <div className='container-fluid line mt-5'></div>
         </div>
     )

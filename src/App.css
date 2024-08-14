@@ -4,21 +4,12 @@
   box-sizing: border-box;
 }
 
-.a1 {
-  background-color: rgb(21, 199, 184);
-  height: 70px;
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-  margin-top: 10px;
-  font-weight: 900;
-  border-radius: 3rem 3rem 3rem 0rem;
-  transition: .5s;
 
-  &:hover {
-    border-radius: 0rem 3rem 3rem 3rem;
-  }
+.col6home {
+  padding-left: 120px;
 }
+
+
 
 .portfolioa1 {
   background-color: rgb(21, 199, 184);
@@ -100,7 +91,8 @@ div img {
 }
 
 .middlerow2 {
-  box-shadow: 0px 5px 10px gray;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgb(245, 228, 228);
   margin-top: 100px;
 }
 
@@ -117,7 +109,7 @@ div img {
 }
 
 .middlerow3 {
-  margin-top: 100px;
+  margin-top: 250px;
 }
 
 .middlerow5 {
@@ -132,7 +124,7 @@ div img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .cardcontainer {
@@ -193,19 +185,18 @@ div img {
 
 .card4container2 {
   width: 100%;
-  height: 500px;
+  height: 450px;
   position: relative;
   top: -250px;
   background-color: white;
 
   border: 1px;
-  /* justify-content: space-between; */
-  box-shadow: 0px 0px 20px rgb(240, 231, 231);
-  margin: 10px;
+  box-shadow: 0px 0px 5px rgb(240, 231, 231);
+  /* margin: 10px; */
   transition: .5s;
 
   &:hover {
-    background-color: rgb(85, 176, 230);
+    background-color: #00c3ff;
     color: white;
   }
 }
@@ -331,6 +322,11 @@ div img {
 
 }
 
+.card4imgCont2 img {
+  background-color: white;
+
+}
+
 .card5icontext {
   display: flex;
   flex-direction: column;
@@ -385,4 +381,33 @@ div img {
   width: 100%;
   height: 1px;
   background-color: gray;
+}
+
+.hometext1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hometext2 {
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+.ccard {
+
+  &:hover {
+    background-color: #00c3ff;
+    color: white;
+  }
+}
+
+.c1card {
+  transition: 1s;
+
+
+  &:hover {
+    background-color: whitesmoke;
+
+  }
+
 }

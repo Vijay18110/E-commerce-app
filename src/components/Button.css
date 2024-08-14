@@ -1,0 +1,13 @@
+.a1 {
+    background-color: rgb(21, 199, 184);
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 900;
+    border-radius: 3rem 3rem 3rem 0rem;
+    transition: .5s;
+
+    &:hover {
+        border-radius: 0rem 3rem 3rem 3rem;
+    }
+}

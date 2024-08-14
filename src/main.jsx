@@ -15,8 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<App></App>} />
-        <Route path="/about" element={<About></About>} />
+        <Route path="/home" element={<App > </App >} />
+        <Route path="/about" element={<About > </About >} />
         <Route path="/services" element={<Services></Services>} />
         <Route path="/pricing" element={<Pricing></Pricing>} />
         <Route path="/work" element={<Work></Work>} />
@@ -24,6 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/contact" element={<Contactus></Contactus>} />
         <Route path="/home" element={<Home></Home>} />
       </Routes>
-    </BrowserRouter>
-  </React.StrictMode>,
+    </BrowserRouter >
+  </React.StrictMode >,
 )

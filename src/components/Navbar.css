@@ -1,0 +1,12 @@
+li a {
+    font-size: small;
+    transition: .5s;
+
+    &:hover {
+        border-bottom: 1px solid white;
+    }
+}
+
+/* .brand {
+    font-weight: bold;
+} */

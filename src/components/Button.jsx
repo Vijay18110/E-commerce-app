@@ -1,9 +1,11 @@
 import React from 'react'
+import './Button.css'
+import { Link } from 'react-router-dom'
 const Button = (props) => {
     return (
-        <p class="d-flex gap-2 p-2">
-            <div className='a1'>
-                <a href="#" className=" btn text-center text-white  align-items-center"><span>{props.span1}</span> <br /><span> {props.span2}</span></a>
+        <p className="d-flex">
+            <div type="button" className='a1 p-2'>
+                <Link to="#" className=" btn text-center text-white  align-items-center"><span>{props.span}</span></Link>
             </div>
         </p>
     )

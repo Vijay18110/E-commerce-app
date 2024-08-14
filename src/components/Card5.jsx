@@ -31,7 +31,10 @@ const Card5 = (props) => {
                     <span className='text-muted'> Market Positioning</span>
                 </div>
             </div>
-            <Button span1="GET SATRTED"></Button>
+            <div className="container mt-2 justify-content-center">
+                <Button span="GET SATRTED"></Button>
+
+            </div>
         </div>
     )
 }

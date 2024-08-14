@@ -16,7 +16,7 @@ ul {
 }
 
 .main {
-    background-color: rgba(9, 127, 196, 0.753);
+    background-image: linear-gradient(to left, rgb(158, 104, 237), rgb(62, 62, 188));
     height: 600px;
 }
 
