@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
 import About from './pages/About/index.jsx'
 import Services from './pages/Services.jsx'
@@ -15,6 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Navigate to="/home" > </Navigate >} />
+
         <Route path="/home" element={<App > </App >} />
         <Route path="/about" element={<About > </About >} />
         <Route path="/services" element={<Services></Services>} />
